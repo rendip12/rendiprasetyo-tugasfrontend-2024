@@ -1,0 +1,19 @@
+/* Styling navbar */
+.navbar-custom {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling search form */
+.search-form {
+  width: 300px;
+}
+
+.search-form input {
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.search-form button {
+  margin-left: 5px;
+  border: none;
+}

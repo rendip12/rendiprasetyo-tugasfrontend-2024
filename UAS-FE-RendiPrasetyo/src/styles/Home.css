@@ -1,0 +1,63 @@
+/* General Styling */
+.home-container {
+    background-color: #FFE4B5;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  /* Title and Description */
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #6c757d; /* Bootstrap secondary color */
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  .custom-button {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Card Styling */
+  .card-row {
+    margin-top: 40px;
+  }
+  
+  .custom-card {
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .custom-card .card-text {
+    color: #6c757d;
+  }
+  
